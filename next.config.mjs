@@ -11,6 +11,18 @@ const nextConfig = {
   // Configure `pageExtensions` to include MDX files
   pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
   // Optionally, add any other Next.js config below
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/about',
+        permanent: true,
+      },
+    ]
+  },
+  images: {
+    domains: ['scontent-bkk1-2.xx.fbcdn.net'],
+  },
 };
 
 export default withMDXConfig(nextConfig);
