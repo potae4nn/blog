@@ -21,7 +21,7 @@ const nextConfig = {
     ]
   },
   images: {
-    domains: ['scontent-bkk1-2.xx.fbcdn.net'],
+    domains: ['scontent-bkk1-2.xx.fbcdn.net','shc.sut.ac.th','upload.wikimedia.org'],
   },
 };
 
